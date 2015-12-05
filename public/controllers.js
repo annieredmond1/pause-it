@@ -42,9 +42,48 @@ angular.module('myApp.controllers', [])
           console.log(response);
         });
     };
-  })
+  });
 
-  .controller('GameCtrl', function($http, $window, $scope) {
-      
-  })
-  ;
+  // .controller('GameCtrl', function($http, $window, $scope, $state) {
+
+  //     // $scope.question1 = {
+  //     //     name: 'Question 1',
+  //     //     code: 'this is the code',
+  //     //     answer: 'a',
+  //     //     current: 'false'
+  //     // };
+  //     // $scope.question2 = {
+  //     //     name: 'Question 2',
+  //     //     code: 'this is the code',
+  //     //     answer: 'c',
+  //     // };
+  //     // $scope.hideQuestion1 = true;
+  //     // $scope.hideQuestion2 = true;
+  //     $scope.gameTemplate = {
+  //       id: '1',
+  //       rounds: [
+  //       {
+  //         name: 'Round 1',
+  //         code: 'this is the code',
+  //         answer: 'a'
+  //       }, 
+  //       {
+  //         name: 'Round 2',
+  //         code: 'this is the code',
+  //         answer: 'c'
+  //       }
+  //       ]
+  //     };
+
+  //     $scope.game = {
+  //       id: '1',
+  //       score: 0
+  //     };
+
+  //     $scope.newGame = function() {
+  //       console.log('clicked new game');
+  //       $state.go('game-play');
+        
+  //     };
+  // })
+  // ;

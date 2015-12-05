@@ -11,22 +11,27 @@ angular.module('myApp', ['ui.router',
 
   .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
     $stateProvider
-      // .state('posts', {
-      //   url: "/",
-      //   templateUrl: 'templates/posts-index',
-      //   controller: 'PostsIndexCtrl'
-      // })
+      .state('posts', {
+        url: "/",
+        templateUrl: 'templates/posts-index',
+        controller: 'PostsIndexCtrl'
+      })
 
       .state('post', {
         url: "/posts/:id",
         templateUrl: 'templates/posts-show',
         controller: 'PostsShowCtrl'
-      })
-      .state('home', {
-        url: "/",
-        templateUrl: 'templates/home',
-        controller: 'GameCtrl'
       });
+      // .state('home', {
+      //   url: "/",
+      //   templateUrl: 'templates/home',
+      //   controller: 'GameCtrl'
+      // });
+      // .state('game-play', {
+      //   url: "/games",
+      //   templateUrl: 'templates/game-play',
+      //   controller: 'GameCtrl'
+      // });
 
       
     $urlRouterProvider.otherwise("/state1");

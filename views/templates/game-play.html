@@ -1,5 +1,17 @@
-<div ng-controller="Game">
-	<div class="container">
-		<h1>Question 1</h1>
+<div ng-controller="GameCtrl">
+	<div class="container text-center">
+		<ul class='list-group'>
+		  <li ng-repeat="round in gameTemplate.rounds" class='list-group-item'>
+		    <h4>{{round.name}}</h4>
+		    <p>{{round.code}}</p>
+		    <button class='btn btn-default a'>O(1)</button>
+		<button class='btn btn-default b'>O(n)</button>
+		<button class='btn btn-default c'>O(nlogn)</button>
+		<button class='btn btn-default d'>O(n^2)</button>
+		    
+		  </li>
+		</ul>
+			
+		
 	</div>
 </div>

@@ -1,3 +1,3 @@
-# Big O Game
+# Pause It
 
-Learn Big O!
+Pause during your day to check in with yourlself!
