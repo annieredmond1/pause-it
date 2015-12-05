@@ -20,14 +20,14 @@ angular.module('myApp.controllers', [])
       post.$save(function(data) {
         $scope.posts.unshift(data)
         $scope.post = {};
-      })
+      });
     };
 
     // DELETE A POST
     $scope.deletePost = function(post, index) {
       Post.remove({ id: post._id }, function(data) {
         $scope.posts.splice(index, 1);
-      })
+      });
     };
   }])
 
@@ -36,11 +36,15 @@ angular.module('myApp.controllers', [])
       var term = { term: $scope.term };
       $http.post($window.location.origin + '/api/music/search', term)
         .success(function(response) {
-          $scope.tracks = response['tracks']['items']
+          $scope.tracks = response['tracks']['items'];
         })
         .error(function(response) {
-          console.log(response)
-        })
-    }
+          console.log(response);
+        });
+    };
+  })
+
+  .controller('GameCtrl', function($http, $window, $scope) {
+      
   })
   ;
