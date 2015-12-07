@@ -5,11 +5,17 @@
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
+var CommentSchema = new Schema( {
+    created_at: { type: Date, default: Date.now() },
+    content: { type: String, required: true, trim: true }
+
+});
+
 var PostSchema = new Schema({
     created_at: { type: Date, default: Date.now() },
     updated_at: { type: Date },
-    title: { type: String, required: true, trim: true },
-    content: { type: String, required: true, trim: true }
+    content: { type: String, required: true, trim: true },
+    comments: [CommentSchema]
 });
 
 // MIDDLEWARE

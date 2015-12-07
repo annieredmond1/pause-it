@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 // connect to database
-var dbName = 'mean-review';
+var dbName = 'pause-it';
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/' + dbName);    
 
 // serve public folder as static assets on the root route

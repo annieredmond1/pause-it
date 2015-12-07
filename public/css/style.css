@@ -1,1 +1,62 @@
 /*PUT YOUR STYLES HERE*/
+#main {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50em;
+
+}
+.background1 {
+	background-image: url('https://images.unsplash.com/44/HsQM7Jd2Qlysfyk9SgvX_logarska-valley-5.jpg?crop=entropy&fit=crop&fm=jpg&h=825&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450');
+}
+.background2 {
+	background-image: url('https://images.unsplash.com/photo-1414250180473-1eba02b3acb3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=827b18072b35a8d40620096cc17b0afc');
+		
+}
+.background3 {
+	background-image: url('https://images.unsplash.com/reserve/tlC8KhNJR0CA2xdomLfx_DSC_0358-2.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9aaa5a80dd97f36d9f7301eac6bfda46');
+	
+}
+.background4 {
+	background-image: url('https://images.unsplash.com/uploads/14126758789351371c7ec/aa322c2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=caf269054721c81e45b23f59dd93786e');
+		
+}
+.background5 {
+	background-image: url('https://images.unsplash.com/photo-1428258731753-78e7b7bae2d7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=01b83bb1cc2c5644fa882ec710657bf2');
+	
+}
+.background6 {
+	background-image: url('https://images.unsplash.com/uploads/1411068785961ec3bb1a3/4662610e?crop=entropy&fit=crop&fm=jpg&h=825&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450');
+		
+}
+.background7 {
+	background-image: url('https://images.unsplash.com/uploads/14111562031083c2cd6cc/53c92046?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=cf1c095e537b9613dbd6bc30d5dc1c0a');
+		
+}
+.background8 {
+	background-image: url('https://images.unsplash.com/reserve/fGPqEBbuQrGjOAYy4kBz_IMGP5626-Edit.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2d3f7e6d954173c179e72103cfbb95ad');
+		
+}
+.background9 {
+	background-image: url('https://images.unsplash.com/uploads/1411589183965bdf6e141/5f468e98?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=8cde817bf2f74b68ca32078d5cd035e6');
+		
+}
+.background10 {
+	background-image: url('https://images.unsplash.com/photo-1430000589629-f04107b5597c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d7db5dc5bb1303a97aa549e2c39f5ff7');
+		
+}
+
+.heading {
+	color: white;
+	background-color: rgba(0,0,0,.2);
+	margin-bottom: 25em;
+	width: 100%;
+
+}
+ h3 {
+ 	color: white;
+ }
+
+
+.header {
+	margin: 100px auto;
+}
